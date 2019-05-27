@@ -92,11 +92,17 @@ while true
   
 endwhile
 
+disp("P(3,0) is: ");
 P(3)
+disp("P(1,2) is: ");
 P(12)
+disp("P(2,1) is: ");
 P(21)
+disp("P(3,0) is: ");
 P(30)
+disp("Mean number of clients in Q1 is: ");
 clients_1(end)
+disp("Mean number of clients in Q2 is: ");
 clients_2(end)
 
 figure(1);
