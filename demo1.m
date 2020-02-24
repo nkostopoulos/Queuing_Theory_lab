@@ -2,7 +2,7 @@ clc;
 clear all;
 close all;
 
-# TASK: In a common diagram, desing the power density functions of Poisson processes
+# TASK: In a common diagram, design the Probability Mass Function of Poisson processes
 # with lambda parameters 3,10,50. In the horizontal axes, choose k parameters 
 # between 0 and 70. 
 
@@ -21,7 +21,7 @@ for i=1:columns(lambda)
 endfor
 hold off;
 
-title("probability density function of Poisson processes");
+title("Probability Mass Function of Poisson processes");
 xlabel("k values");
 ylabel("probability");
 legend("lambda=3","lambda=10","lambda=50");
